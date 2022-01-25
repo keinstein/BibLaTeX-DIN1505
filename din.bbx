@@ -21,11 +21,11 @@
 %\DeclareFieldFormat[article]{date}{(#1)\midsentence}% Klammern um das Jahr bei Zeitschriftenbeiträgen
 \DeclareFieldFormat[article]{number}{Nr. #1\midsentence}% Klammern um das Jahr bei Zeitschriftenbeiträgen
 
-\DeclareFieldFormat[incollection]{title}{#1\midsentence}% keine Anführungszeichen beim Beitr�gen in Sammelwerken
+\DeclareFieldFormat[incollection]{title}{#1\midsentence}% keine Anführungszeichen beim Beiträgen in Sammelwerken
 
 \DeclareFieldFormat[inproceedings]{title}{#1\midsentence}% keine Anführungszeichen beim Titel von Konferenzbeiträgen
 
-\DeclareFieldFormat[inbook]{title}{#1\midsentence}% keine Anf�hrungszeichen beim Titel von Buchbeitr�gen
+\DeclareFieldFormat[inbook]{title}{#1\midsentence}% keine Anführungszeichen beim Titel von Buchbeiträgen
 
 \DeclareFieldFormat[thesis]{title}{\mkbibemph{#1}\midsentence}% keine Anführungszeichen dafür kursiver Titel bei Dissertationen
 
@@ -38,7 +38,7 @@
 \renewcommand*{\multinamedelim}{\addsemicolon\space}
 \renewcommand*{\finalnamedelim}{\addsemicolon\space}
 
-\renewbibmacro*{editor}{% Komma vor Herausgeberk�rzel entfernen
+\renewbibmacro*{editor}{% Komma vor Herausgeberkürzel entfernen
   \ifboolexpr{
     test \ifuseeditor
     and
